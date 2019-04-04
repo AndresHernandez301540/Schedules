@@ -1,0 +1,55 @@
+.panels{
+  padding: 16px;
+}
+.example-headers-align .mat-expansion-panel-header-title,
+.example-headers-align .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+/* Chiefs */
+.kcimg{
+  max-width: 13%;
+  height: auto;
+}
+.chiefs{
+  background-color: #E31837;
+}
+.kc{
+  color: #FFB81C;
+}
+/* Raiders */
+.oakimg{
+  max-width: 14%;
+  height: auto;
+}
+.raiders{
+  background-color: #000000;
+}
+.oak{
+  color: #A5ACAF;
+}
+/* Broncos */
+.denimg{
+  max-width: 15%;
+  height: auto;
+}
+.broncos{
+  background-color: #FB4F14;
+}
+.den{
+  color: #002244;
+}
+/* Chargers */
+.lacimg{
+  max-width: 13%;
+  height: auto;
+}
+.chargers{
+  background-color: #0080C6;
+}
+.lac{
+  color: #FFC20E;
+}

@@ -1,0 +1,25 @@
+<div class="panels">
+  <mat-accordion class="example-headers-align" hideToggle>
+    <div *ngFor="let t of teams">
+      <mat-expansion-panel [ngClass]="t.firstColor">
+        <mat-expansion-panel-header>
+          <mat-panel-title [ngClass]="t.firstColor">
+            <div>
+              <img [ngClass]="t.scale" mat-card-image src="{{t.logo}}">
+            </div>
+          </mat-panel-title>
+        <mat-panel-description [ngClass]="t.secondColor">
+          {{t.firstName}}
+          {{t.secondName}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <p [ngClass]="t.secondColor">This is the panel content.  Add Course Details</p>
+      <mat-action-row>
+        <button mat-button><span [ngClass]="t.secondColor">Enroll</span></button>
+      </mat-action-row>
+      </mat-expansion-panel>
+    </div>
+
+  </mat-accordion>
+</div>
